@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'website';
+  route="";
+  chengeLink(route:string){
+    if(route=="Home"){
+
+    }
+    else if(route="pricing"){
+
+    }
+  }
 }
